@@ -1,17 +1,14 @@
 <template>
   <div id="toolbar">
-    <CloseIcon />
+    <img v-svg-inline src="../assets/icons/x-circle.svg" />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import CloseIcon from '../assets/icons/x-circle.svg';
 
 export default defineComponent({
-  components: {
-    CloseIcon,
-  },
+  components: {},
 });
 </script>
 
